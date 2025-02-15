@@ -20,4 +20,3 @@ model User {
     emailAddress  String      @unique
     credits       Int         @default(150) 
 }
-
