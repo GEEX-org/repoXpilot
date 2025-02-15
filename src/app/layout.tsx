@@ -16,7 +16,6 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <div suppressHydrationWarning={true}>
       <ClerkProvider>
       <html lang="en" className={`${GeistSans.variable}`}>
         <body>
@@ -24,6 +23,5 @@ export default function RootLayout({
         </body>
       </html>
       </ClerkProvider>
-    </div>
   );
 }

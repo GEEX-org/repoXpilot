@@ -9,7 +9,6 @@ type Props ={
 
 const Sidebarlayout = ( { children } : Props ) => {
   return (
-    <div suppressHydrationWarning={true}>
     <SidebarProvider>
         <AppSidebar/>
         {/* App Sidebar */}
@@ -26,7 +25,6 @@ const Sidebarlayout = ( { children } : Props ) => {
             </div>
         </main>
     </SidebarProvider>   
-    </div>
   )
 }
 
